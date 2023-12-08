@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scr.css">
+    <title>File Upload Workbench</title>
+</head>
+<body>
+    <div class="container">
+        <h2>File Upload</h2>
+        <input type="file" id="file" accept=".txt, .pdf, .doc, .docx" required>
+        <button onclick="uploadFile()">Upload</button>
+        <p id="upload-message"></p>
+
+        <h2>SocialBook - Uploaded Files</h2>
+        <ul id="files-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
